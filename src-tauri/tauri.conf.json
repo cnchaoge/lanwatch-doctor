@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "lanwatch-doctor",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.chaoge.lanwatch-doctor",
   "build": {
     "frontendDist": "../build",
     "devUrl": "http://localhost:5173",
@@ -12,11 +12,16 @@
   "app": {
     "windows": [
       {
-        "title": "lanwatch-doctor",
-        "width": 800,
-        "height": 600,
+        "title": "局域网医生",
+        "width": 1220,
+        "height": 840,
+        "minWidth": 1040,
+        "minHeight": 680,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "trafficLightPosition": { "x": 16, "y": 18 }
       }
     ],
     "security": {
@@ -26,6 +31,9 @@
   "bundle": {
     "active": true,
     "targets": "all",
+    "resources": [
+      "resources/wifi-helper"
+    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",

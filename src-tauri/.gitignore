@@ -2,3 +2,7 @@
 # will have compiled files and executables
 /target/
 /gen/schemas
+
+# Compiled helpers (built by scripts/build-wifi-helper.sh)
+/resources/wifi-helper
+/resources/wifi-test

@@ -1,0 +1,4 @@
+# Compiled helpers. The app runs them as subprocesses, so a rewrite
+# must not restart the window.
+wifi-helper
+wifi-test

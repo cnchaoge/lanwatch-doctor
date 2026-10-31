@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "npm run build:helper && vite",
+    "build": "npm run build:helper && tsc -b && vite build",
+    "build:helper": "sh scripts/build-wifi-helper.sh",
     "lint": "oxlint",
     "preview": "vite preview"
   },
