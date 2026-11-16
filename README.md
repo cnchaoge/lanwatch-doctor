@@ -1,3 +1,7 @@
+本仓库不再并行开发，将步步归档。个人诊断窗口的继续维护地点是 [Lanwatch](https://github.com/cnchaoge/lanwatch)。
+
+下面保留原先的说明，供查阅。
+
 # Lanwatch Doctor
 
 局域网网络诊断工具 —— 让不懂技术的人也能快速定位网络故障。
